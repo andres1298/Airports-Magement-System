@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="900.0" style="-fx-background-color: #252525;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aeropuertos.tl.FXML_Controllers.MenuCliente.Controller_Cliente_Inicio">
+   <children>
+      <VBox prefHeight="678.0" prefWidth="222.0" style="-fx-background-color: #1a96db;">
+         <children>
+            <Pane prefHeight="120.0" prefWidth="222.0">
+               <children>
+                  <Label layoutX="30.0" layoutY="26.0" text="Captain">
+                     <font>
+                        <Font name="AR JULIAN" size="48.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Button fx:id="btnInicio" mnemonicParsing="false" onAction="#irInicioCliente" prefHeight="44.0" prefWidth="224.0" style="-fx-background-color: #0488d0;" text="Inicio" textFill="#eeeeee">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="15.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnVuelos" mnemonicParsing="false" onAction="#irVuelosCliente" prefHeight="44.0" prefWidth="224.0" style="-fx-background-color: #1a96db;" text="Vuelos" textFill="#eeeeee">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="15.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnPerfil" mnemonicParsing="false" onAction="#irPerfilCliente" prefHeight="44.0" prefWidth="224.0" style="-fx-background-color: #1a96db;" text="Perfil" textFill="#eeeeee">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="15.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnSalir" mnemonicParsing="false" onAction="#salir" prefHeight="44.0" prefWidth="224.0" style="-fx-background-color: #1a96db;" text="Salir" textFill="#eeeeee">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="15.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </VBox>
+      <Label layoutX="492.0" layoutY="222.0" text="Welcome" textFill="#eeeeee">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="458.0" layoutY="265.0" text="Captain" textFill="#1a96db">
+         <font>
+            <Font name="AR JULIAN" size="64.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
